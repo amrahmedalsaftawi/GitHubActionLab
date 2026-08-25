@@ -1,17 +1,16 @@
 name: FirstWorkFlow
 
 on:
-   push:
-   
-   branches:
-   - main
+ push:
+    branches:
+      - main
    
  jobs:  
-    exapmle-job:
-      runs-on: ubunto-latest
+     exapmle-job:
+     runs-on: ubunto-latest
 
-    steps:
-      - name: print weclome message
+steps:
+     - name: print weclome message
       run: echo "Wlecome to our first Github Actions workflow"
    
   
